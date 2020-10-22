@@ -1,122 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasks Among Us - The Skeld</title>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/skeld.css">
-</head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tasks Among Us - The Skeld</title>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/skeld.css"> </head>
+
 <body>
-
-
-    <div id="particles-js"></div>
-
-    <div class="tablet">
-        <a href="index.html"><button class="return">X</button></a>
-        <div class="tablet-nav"></div>
-        <div class="tablet-interface">
-            <p class="tablet-name">Task Tester 2000</p>
-            <div class="tablet-tasks">
-                <div class="admin-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Admin</p>
-                </div>
-                <div class="cafeteria-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Cafeteria</p>
-                </div>
-                <div class="communications-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Communications</p>
-                </div>
-                <div class="electrical-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Electrical</p>
-                </div>
-                <div class="engines-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Engines</p>
-                </div>
-                <div class="medbay-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Medbay</p>
-                </div>
-                <div class="navigation-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Navigation</p>
-                </div>
-                <div class="o2-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>02</p>
-                </div>
-                <div class="reactor-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Reactor</p>
-                </div>
-                <div class="security-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Security</p>
-                </div>
-                <div class="shields-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Shields</p>
-                </div>
-                <div class="storage-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Storage</p>
-                </div>
-                <div class="weapons-task folder">
-                    <i class="fas fa-folder"></i>
-                    <p>Weapons</p>
-                </div>
-            </div>
-        </div>
-
-
-        <!--Hidden Menu that is toggle on folder selection-->
-
-        <div class="admin-task-shown">
-            <h1>Admin</h1>
-            <button class="exit-task">View other locations</button>
-            <div class="tasks">
-                <h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
-                <p class="task-name">Card Swipe</p>
-                <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
-                <p class="task-description">The player must swipe the card inside
-                     the wallet on the draw frame. The card needs to be timed
-                    correctly. Swiping too slow or too fast or taking your
-                    hand off earlier will fail to complete the task, and 
-                    consequently, the player must try again.</p>
-
-                <p class="task-name">Fix Wiring</p>
-                <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
-                <p class="task-description">Fix Wiring is done by connecting each
-                    colored wire from the left-hand side of the screen to the 
-                    right-hand side, making sure each color matches on both sides.
-                    Three electrical panels must be repaired for this task to be completed.</p>
-
-                    <h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
-                    <p class="task-name">Upload Data</p>
-                    <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
-                    <p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>    
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-
-
-  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script>
-      particlesJS.load('particles-js', 'particles.json');
-  </script>
-  <script src="./javascript/skeld.js"></script>
+	<div id="particles-js"></div>
+	<div class="tablet">
+		<a href="index.html">
+			<button class="return">X</button>
+		</a>
+		<div class="tablet-nav"></div>
+		<div class="tablet-interface">
+			<p class="tablet-name">Task Tester 2000</p>
+			<div class="tablet-tasks">
+				<div class="admin-task folder"> <i class="fas fa-folder"></i>
+					<p>Admin</p>
+				</div>
+				<div class="cafeteria-task folder"> <i class="fas fa-folder"></i>
+					<p>Cafeteria</p>
+				</div>
+				<div class="communications-task folder"> <i class="fas fa-folder"></i>
+					<p>Communications</p>
+				</div>
+				<div class="electrical-task folder"> <i class="fas fa-folder"></i>
+					<p>Electrical</p>
+				</div>
+				<div class="engines-task folder"> <i class="fas fa-folder"></i>
+					<p>Engines</p>
+				</div>
+				<div class="medbay-task folder"> <i class="fas fa-folder"></i>
+					<p>Medbay</p>
+				</div>
+				<div class="navigation-task folder"> <i class="fas fa-folder"></i>
+					<p>Navigation</p>
+				</div>
+				<div class="o2-task folder"> <i class="fas fa-folder"></i>
+					<p>02</p>
+				</div>
+				<div class="reactor-task folder"> <i class="fas fa-folder"></i>
+					<p>Reactor</p>
+				</div>
+				<div class="security-task folder"> <i class="fas fa-folder"></i>
+					<p>Security</p>
+				</div>
+				<div class="shields-task folder"> <i class="fas fa-folder"></i>
+					<p>Shields</p>
+				</div>
+				<div class="storage-task folder"> <i class="fas fa-folder"></i>
+					<p>Storage</p>
+				</div>
+				<div class="weapons-task folder"> <i class="fas fa-folder"></i>
+					<p>Weapons</p>
+				</div>
+			</div>
+		</div>
+		<!--Hidden Menu that is toggle on folder selection-->
+		<div class="admin-task-shown">
+			<h1>Admin</h1>
+			<button class="exit-task">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="cafeteria-task-shown">
+			<h1>Cafeteria</h1>
+			<button class="exit-task-cafe">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Short Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+				<p class="task-name">Empty Garbage</p> <img class="task-image" src="./task/emptyGarbage.png" alt="Empty Garbage">
+				<p class="task-description">The player must go up to the lever and then open a trash can filled with a lever, where they must pull it and hold it until the garbage has been emptied completely.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Fix wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides.</p>
+			</div>
+		</div>
+		<div class="communications-task-shown">
+			<h1>Communications</h1>
+			<button class="exit-task-comms">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Short Task</h4>
+				<p class="task-name">Divert Power</p> <img class="task-image" src="./task/stage2Divert.png" alt="Divert Power">
+				<p class="task-description">The player needs to travel to the cafeteria to accept diverted power.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="electrical-task-shown">
+			<h1>Electrical</h1>
+			<button class="exit-task-elec">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Short Task</h4>
+				<p class="task-name">Calibrate Distributor</p> <img class="task-image" src="./task/calibrateDistributor.jpg" alt="Calibrate Distributor">
+				<p class="task-description">The task is performed by timing. A node rotates counter-clockwise around a ring. When it reaches its rightmost point, the player must tap/click the button under the bar, advancing to the next. If a mistake is made, the player must restart from the first.</p>
+				<p class="task-name">Divert Power</p> <img class="task-image" src="./task/stage2Divert.png" alt="Divert Power">
+				<p class="task-description">The player needs to travel to electrical to accept diverted power</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="engines-task-shown">
+			<h1>Engines</h1>
+			<button class="exit-task-eng">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Short</h4>
+				<p class="task-name">Divert Power</p> <img class="task-image" src="./task/stage2Divert.png" alt="Divert Power">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+				<p class="task-name">Align Engine Output</p> <img class="task-image" src="./task/alignEngineUpper.jpg" alt="Align Engine Output">
+				<p class="task-description">Align Engine Output begins with an engine facing either upwards or downwards with a horizontal line in the screen's middle. Crewmates must move the engine close enough to align with the middle line of the object.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Fuel Engines</p> <img class="task-image" src="./task/fuelEngines.png" alt="Fuel Engines">
+				<p class="task-description">Fuel Engines requires the player to first go to the Refuel Station in Storage and fill their gas can to transport the fuel to the engines</p>
+			</div>
+		</div>
+		<div class="medbay-task-shown">
+			<h1>Medbay</h1>
+			<button class="exit-task-med">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Submit Scan</p> <img class="task-image" src="./task/medbayScan.jpg" alt="Upload Data">
+                <p class="task-description">This task consists of the player standing on top of a capsule that starts to scan themself, while their information is shown, all in about 10 seconds. While doing the task, a hologram that scans the player is shown both to themself and other players</p>
+                <p class="task-name">Inspect Sample</p> <img class="task-image" src="./task/inspectSample.png" alt="Upload Data">
+				<p class="task-description">When the player starts the task, a machine holding 5 test tubes will appear. A screen at the bottom of the machine will read "HELLO" and then "PRESS TO START --|." The player must press the small green button on the bottom right of the machine. Once the button is pressed, the machine will quickly dispense a liquid into each test tube as the bottom text on the machine reads "ADDING REAGENT" and then "GO GRAB A COFFEE." The top of the machine will say, "ETA 59." After at least 59 seconds, the player will need a return to the machine to complete the task. The bottom text will read "SELECT ANOMALY," The player must press the green button below the red sample.</p>
+			</div>
+		</div>
+		<div class="navigation-task-shown">
+			<h1>Navigation</h1>
+			<button class="exit-task-nav">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="o2-task-shown">
+			<h1>O2</h1>
+			<button class="exit-task-o2">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="reactor-task-shown">
+			<h1>Reactor</h1>
+			<button class="exit-task-rec">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="security-task-shown">
+			<h1>Security</h1>
+			<button class="exit-task-sec">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="shields-task-shown">
+			<h1>Shields</h1>
+			<button class="exit-task-shield">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="storage-task-shown">
+			<h1>Storage</h1>
+			<button class="exit-task-stor">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+		<div class="weapons-task-shown">
+			<h1>Weapons</h1>
+			<button class="exit-task-weps">View other locations</button>
+			<div class="tasks">
+				<h4 class="task-type"><i class="fas fa-flask"></i> Common Task</h4>
+				<p class="task-name">Card Swipe</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Card Swipe">
+				<p class="task-description">The player must swipe the card inside the wallet on the draw frame. The card needs to be timed correctly. Swiping too slow or too fast or taking your hand off earlier will fail to complete the task, and consequently, the player must try again.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides. Three electrical panels must be repaired for this task to be completed.</p>
+				<h4 class="task-type"><i class="fas fa-flask"></i> Long Task</h4>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Crewmate most upload data which takes about 8.7 seconds to do.</p>
+			</div>
+		</div>
+	</div>
+	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+	particlesJS.load('particles-js', 'particles.json');
+	</script>
+	<script src="./javascript/skeld.js"></script>
 </body>
+
 </html>

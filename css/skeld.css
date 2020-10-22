@@ -58,16 +58,35 @@ body {
 }
 
 
-.admin-task-shown {
+.admin-task-shown,
+.cafeteria-task-shown,
+.communications-task-shown,
+.electrical-task-shown,
+.engines-task-shown,
+.medbay-task-shown,
+.navigation-task-shown,
+.o2-task-shown,
+.reactor-task-shown,
+.security-task-shown,
+.shields-task-shown,
+.storage-task-shown,
+.weapons-task-shown {
     display: none;
 }
 
-.admin-task-shown h1 {
-    color: #fff;
-    font-size: 3rem;
-}
-
-.exit-task {
+.exit-task, 
+.exit-task-cafe,
+.exit-task-comms,
+.exit-task-elec,
+.exit-task-eng,
+.exit-task-med,
+.exit-task-nav,
+.exit-task-o2,
+.exit-task-rec,
+.exit-task-sec,
+.exit-task-shield,
+.exit-task-stor,
+.exit-task-weps {
     width: 150px;
     height: 50px;
     border: 2px solid #fff;
@@ -83,9 +102,39 @@ body {
     transition: 0.5s ease;
 }
 
-.exit-task:hover {
+.exit-task:hover, 
+.exit-task-cafe:hover,
+.exit-task-comms:hover,
+.exit-task-elec:hover,
+.exit-task-eng:hover,
+.exit-task-med:hover,
+.exit-task-nav:hover,
+.exit-task-o2:hover,
+.exit-task-rec:hover,
+.exit-task-sec:hover,
+.exit-task-shield:hover,
+.exit-task-stor:hover,
+.exit-task-weps:hover {
     background-color: #fff;
     color: #263839;
+}
+
+.task-image {
+    width: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+.tablet h1 {
+    color: #fff;
+    font-size: 3rem;
 }
 
 .tasks {
