@@ -1,0 +1,116 @@
+body {
+    background-color: #38618C;
+}
+
+.tablet {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1rem;
+    background: #495867;
+    border: 3px solid #263839;
+    position: relative;
+}
+
+.fa-folder {
+    color: #EFCF8B;
+    font-size: 7rem;
+    
+}
+
+
+.tablet-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.return {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #36454f;
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+
+.tablet-interface p {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.folder {
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.folder p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.admin-task-shown {
+    display: none;
+}
+
+.admin-task-shown h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.exit-task {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2rem;
+    padding: .5rem;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+.exit-task:hover {
+    background-color: #fff;
+    color: #263839;
+}
+
+.tasks {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.task-type {
+    font-size: 2.5rem;
+    margin: 30px 0;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.task-name {
+    font-size: 1.5rem;
+    margin: 30px 0;
+    text-decoration: underline;
+    font-family: 'Commissioner', sans-serif;
+
+}
+
+.task-description {
+    max-width: 85%;
+    margin: 30px auto 60px auto;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+}

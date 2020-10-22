@@ -14,5 +14,5 @@ function randomizeCrewmate() {
     const bodyLight = document.querySelector('.body-light-part').style.backgroundColor = crewmateRandom[1];
     const backpackLight = document.querySelector('.backpack-light-part').style.backgroundColor = crewmateRandom[1];
 
-    setTimeout(randomizeCrewmate, 40000);
+    setTimeout(randomizeCrewmate, 24000);
 }

@@ -27,7 +27,7 @@
   .body {
 
     animation-name: spin;
-    animation-duration: 40000ms;
+    animation-duration: 25000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     position: relative;
@@ -183,7 +183,7 @@
     .main-content {
       color: #fff;
       text-align: center;
-      padding-top: 20px;
+      padding-top: 60px;
     }
 
     .main-content h1 {
@@ -198,25 +198,40 @@
     
 .main-containers {
   display: flex;
-  max-width: 1200px;
-  justify-content: space-between;
+  max-width: 1500px;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
   height: 400px;
+  flex-wrap: wrap;
 }
 
 .map {
   padding: 1rem;
-  width: 300px;
+  width: 500px;
   z-index: 10;
   border-radius: 8px;
 }
 
+.mapImage {
+  text-align: center;
+}
+
+.mapImage img {
+  width: 500px;
+  padding: 40px;
+}
+
 @media (max-width: 768px) {
-  .main-containers {
-    flex-direction: column;
-    align-items: center;
+
+  .main-content {
+    padding-top: 20px;
+  }
+  
+  .mapImage img {
+    width: 300px;
+    padding: 20px 0 60px 0;
   }
 
   .main-content h1 {
@@ -226,5 +241,11 @@
   .main-content p {
     font-size: 1.5rem;
     padding-top: .5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .mapImage img {
+    width: 260px;
   }
 }
