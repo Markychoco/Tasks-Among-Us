@@ -5,8 +5,8 @@
   }
   
   body {
-    overflow-x: hidden;
     background-color: #000000;
+    font-family: 'Amatic SC', cursive;
   }
   
   :root {
@@ -16,6 +16,13 @@
     --lighter-face-color: #CAE8ED;
     --border-color: #000000; 
   }
+
+  #particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+  }
   
   .body {
 
@@ -24,15 +31,18 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     position: relative;
-    margin: 100px 150px;
     width: 155px;
     height: 230px;
     background-color: var(--base-color);
-
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px; /* Negative half of width. */
     border: 12px solid var(--border-color);
     border-radius: 70px 85px 70px 70px;
 
-    transform: scale(0.5);
+
   }
   
   .body-light-part {
@@ -168,3 +178,53 @@
           left: 3500px;
       }
     }
+
+
+    .main-content {
+      color: #fff;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .main-content h1 {
+      font-size: 5rem;
+      padding: 0 1rem;
+    }
+
+    .main-content p {
+      font-size: 2rem;
+      padding: 0 1rem;
+    }
+    
+.main-containers {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  height: 400px;
+}
+
+.map {
+  padding: 1rem;
+  width: 300px;
+  z-index: 10;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .main-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-content h1 {
+    font-size: 4rem;
+  }
+
+  .main-content p {
+    font-size: 1.5rem;
+    padding-top: .5rem;
+  }
+}

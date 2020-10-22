@@ -3,31 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Among Us - Tasks</title>
+    <title>Tasks Among Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
+
     <div id="particles-js"></div>
 
+    
     <div class="body">
-      <div class="body-light-part"></div>
-      <div class="face">
-        <div class="face-light-part">
-          <div class="shimmer"></div>
+        <div class="body-light-part"></div>
+        <div class="face">
+          <div class="face-light-part">
+            <div class="shimmer"></div>
+          </div>
         </div>
+        <div class="backpack">
+          <div class="backpack-light-part"></div>
+        </div>
+        <div class="leg-left-under"></div>
+        <div class="leg-left"></div>
+        <div class="leg-right-under"></div>
+        <div class="leg-right"></div>
       </div>
-      <div class="backpack">
-        <div class="backpack-light-part"></div>
-      </div>
-      <div class="leg-left-under"></div>
-      <div class="leg-left"></div>
-      <div class="leg-right-under"></div>
-      <div class="leg-right"></div>
     </div>
-  </div>
 
+    <div class="main-content">
+        <h1 class="title">Tasks Among Us</h1>
+        <p class="sub-title">Learn about the different types of tasks on The Skeld, MiraHQ, and Polus.</p>
+    </div>
 
-  <script src="particles.js"></script>
+    <div class="main-containers">
+        <div class="map">
+            <img src="./Skeld.png" alt="The Skeld">
+            <div class="mapImage"></div>
+            <button>View Task</button>
+        </div>
+        <div class="map">
+            <img src="./MiraHq.png" alt="Mira Headquarters">
+            <div class="mapImage"></div>
+            <button>View Task</button>
+        </div>
+        <div class="map">
+            <img src="./Polus.png" alt="Polus">
+            <div class="mapImage"></div>
+            <button>View Task</button>
+        </div>
+    </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+      particlesJS.load('particles-js', 'particles.json');
+  </script>
+  <script src="./javascript/main.js"></script>
 </body>
 </html>
