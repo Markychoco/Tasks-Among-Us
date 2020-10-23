@@ -41,6 +41,7 @@ const exitTaskSec = document.querySelector('.exit-task-sec');
 const exitTaskShield = document.querySelector('.exit-task-shield');
 const exitTaskStor = document.querySelector('.exit-task-stor');
 const exitTaskWeps = document.querySelector('.exit-task-weps');
+const returnMobile = document.querySelector('.returnMobile');
 
 //Task Exit Event Listeners
 
@@ -48,66 +49,156 @@ const exitTaskWeps = document.querySelector('.exit-task-weps');
 exitTask.addEventListener('click', () => {
     opened.style.display = 'flex';
     adminTask.style.display = 'none';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskCafe.addEventListener('click', () => {
     opened.style.display = 'flex';
     cafeteriaTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskComms.addEventListener('click', () => {
     opened.style.display = 'flex';
     communicationTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskElec.addEventListener('click', () => {
     opened.style.display = 'flex';
     electricalTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskEng.addEventListener('click', () => {
     opened.style.display = 'flex';
     enginesTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskMed.addEventListener('click', () => {
     opened.style.display = 'flex';
     medbayTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskNav.addEventListener('click', () => {
     opened.style.display = 'flex';
     navigationTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskO2.addEventListener('click', () => {
     opened.style.display = 'flex';
     o2Task.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskRec.addEventListener('click', () => {
     opened.style.display = 'flex';
     reactorTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskSec.addEventListener('click', () => {
     opened.style.display = 'flex';
     securityTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskShield.addEventListener('click', () => {
     opened.style.display = 'flex';
     shieldsTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskStor.addEventListener('click', () => {
     opened.style.display = 'flex';
     storageTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 exitTaskWeps.addEventListener('click', () => {
     opened.style.display = 'flex';
     weaponsTask.style.display = 'none';
+    returnMobile.style.display = 'block';
+
+    if (window.innerWidth <= 1085) {
+        returnMobile.style.display = 'block';
+    } else {
+        returnMobile.style.display = 'none';
+    }
 });
 
 
@@ -117,64 +208,77 @@ exitTaskWeps.addEventListener('click', () => {
 admin.addEventListener('click', () => {
     opened.style.display = 'none';
     adminTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 cafeteria.addEventListener('click', () => {
     opened.style.display = 'none';
     cafeteriaTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 communications.addEventListener('click', () => {
     opened.style.display = 'none';
     communicationTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 electrical.addEventListener('click', () => {
     opened.style.display = 'none';
     electricalTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 engines.addEventListener('click', () => {
     opened.style.display = 'none';
     enginesTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 medbay.addEventListener('click', () => {
     opened.style.display = 'none';
     medbayTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 navigation.addEventListener('click', () => {
     opened.style.display = 'none';
     navigationTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 o2.addEventListener('click', () => {
     opened.style.display = 'none';
     o2Task.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 reactor.addEventListener('click', () => {
     opened.style.display = 'none';
     reactorTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 security.addEventListener('click', () => {
     opened.style.display = 'none';
     securityTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 shields.addEventListener('click', () => {
     opened.style.display = 'none';
     shieldsTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 storage.addEventListener('click', () => {
     opened.style.display = 'none';
     storageTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });
 
 weapons.addEventListener('click', () => {
     opened.style.display = 'none';
     weaponsTask.style.display = 'block';
+    returnMobile.style.display = 'none';
 });

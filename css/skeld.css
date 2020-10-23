@@ -10,7 +10,6 @@
 .fa-folder {
     color: #EFCF8B;
     font-size: 7rem;
-    
 }
 
 
@@ -70,6 +69,24 @@
     display: none;
 }
 
+.admin-task-shown h1,
+.cafeteria-task-shown h1,
+.communications-task-shown h1,
+.electrical-task-shown h1,
+.engines-task-shown h1,
+.medbay-task-shown h1,
+.navigation-task-shown h1,
+.o2-task-shown h1,
+.reactor-task-shown h1,
+.security-task-shown h1,
+.shields-task-shown h1,
+.storage-task-shown h1,
+.weapons-task-shown h1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
 .exit-task, 
 .exit-task-cafe,
 .exit-task-comms,
@@ -96,6 +113,9 @@
     padding: .5rem;
     font-weight: 700;
     transition: 0.5s ease;
+    position: absolute;
+    right: 10px;
+    top: 20px
 }
 
 .exit-task:hover, 
@@ -140,17 +160,17 @@
 }
 
 .task-type {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 30px 0;
     font-family: 'Commissioner', sans-serif;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
 }
 
 .task-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 30px 0;
-    text-decoration: underline;
     font-family: 'Commissioner', sans-serif;
-
 }
 
 .task-description {
@@ -158,4 +178,148 @@
     margin: 30px auto 60px auto;
     font-family: 'Commissioner', sans-serif;
     font-weight: 300;
+}
+
+.returnMobile {
+    display: none;
+}
+
+@media (max-width: 1085px) {
+
+    .returnMobile {
+        display: block;
+        text-align: center;
+        width: 250px;
+        height: 50px;
+        border: 3px solid grey;
+        outline: none;
+        margin: 2rem auto;
+        cursor: pointer;
+        font-family: 'Commissioner', sans-serif;
+        color: #36454f;
+    }
+
+    .return {
+        display: none;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .fa-folder {
+        font-size: 5rem;
+    }
+
+    .tablet {
+        max-width: 800px;
+    }
+
+    .tablet h1 {
+        color: #fff;
+        font-size: 2rem;
+        position: unset;
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+
+.exit-task, 
+.exit-task-cafe,
+.exit-task-comms,
+.exit-task-elec,
+.exit-task-eng,
+.exit-task-med,
+.exit-task-nav,
+.exit-task-o2,
+.exit-task-rec,
+.exit-task-sec,
+.exit-task-shield,
+.exit-task-stor,
+.exit-task-weps {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.5s ease;
+    position: unset;
+    display: block;
+    margin: 10px auto;
+}
+
+}
+
+@media (max-width: 860px) {
+    .fa-folder {
+        font-size: 4rem;
+    }
+
+    .tablet {
+        max-width: 600px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+    .fa-folder {
+        font-size: 3rem;
+    }
+
+    .tablet {
+        max-width: 500px;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .fa-folder {
+        font-size: 3rem;
+    }
+
+    .tablet {
+        max-width: 400px;
+    }
+
+    .task-image {
+        width: 200px;
+    }
+
+    
+.folder p {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+}
+
+
+@media (max-width: 425px) {
+    .fa-folder {
+        font-size: 4rem;
+    }
+
+    .tablet {
+        max-width: 280px;
+    }
+
+    
+.folder p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+
 }
