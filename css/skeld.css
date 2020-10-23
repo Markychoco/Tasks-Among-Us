@@ -254,19 +254,25 @@
     }
     
 
-.exit-task, 
-.exit-task-cafe,
-.exit-task-comms,
-.exit-task-elec,
-.exit-task-eng,
-.exit-task-med,
-.exit-task-nav,
-.exit-task-o2,
-.exit-task-rec,
-.exit-task-sec,
-.exit-task-shield,
-.exit-task-stor,
-.exit-task-weps {
+    .exit-task, 
+    .exit-task-cafe,
+    .exit-task-comms,
+    .exit-task-elec,
+    .exit-task-eng,
+    .exit-task-med,
+    .exit-task-nav,
+    .exit-task-o2,
+    .exit-task-rec,
+    .exit-task-sec,
+    .exit-task-shield,
+    .exit-task-stor,
+    .exit-task-weps,
+    .exit-task-off,
+    .exit-task-bal,
+    .exit-task-gre,
+    .exit-task-hal,
+    .exit-task-lab,
+    .exit-task-lau {
     width: 100px;
     height: 50px;
     border: 2px solid #fff;
