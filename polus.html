@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tasks Among Us - Polus</title>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/skeld.css"> </head>
+
+<body>
+    <div class="body">
+        <div class="body-light-part"></div>
+        <div class="face">
+          <div class="face-light-part">
+            <div class="shimmer"></div>
+          </div>
+        </div>
+        <div class="backpack">
+          <div class="backpack-light-part"></div>
+        </div>
+        <div class="leg-left-under"></div>
+        <div class="leg-left"></div>
+        <div class="leg-right-under"></div>
+        <div class="leg-right"></div>
+      </div>
+    </div>
+	<div id="particles-js"></div>
+
+
+
+
+	<div class="tablet">
+		<a href="index.html">
+			<button class="return">X</button>
+		</a>
+		<div class="tablet-nav"></div>
+		<div class="tablet-interface">
+			<p class="tablet-name">Task Tester 2000 - Polus</p>
+			<div class="tablet-tasks">
+				<div class="boilerroom-task folder"> <i class="fas fa-folder"></i>
+					<p>Boiler Room</p>
+				</div>
+				<div class="communications-task folder"> <i class="fas fa-folder"></i>
+					<p>Communications</p>
+				</div>
+				<div class="dropship-task folder"> <i class="fas fa-folder"></i>
+					<p>Dropship</p>
+				</div>
+				<div class="electrical-task folder"> <i class="fas fa-folder"></i>
+					<p>Electrical</p>
+				</div>
+				<div class="laboratory-task folder"> <i class="fas fa-folder"></i>
+					<p>Laboratory</p>
+				</div>
+				<div class="medbay-task folder"> <i class="fas fa-folder"></i>
+					<p>Medbay</p>
+				</div>
+				<div class="o2-task folder"> <i class="fas fa-folder"></i>
+					<p>O2</p>
+				</div>
+				<div class="office-task folder"> <i class="fas fa-folder"></i>
+					<p>Office</p>
+				</div>
+				<div class="outside-task folder"> <i class="fas fa-folder"></i>
+					<p>Outside</p>
+				</div>
+				<div class="specimenroom-task folder"> <i class="fas fa-folder"></i>
+					<p>Specimen Room</p>
+				</div>
+				<div class="storage-task folder"> <i class="fas fa-folder"></i>
+					<p>Storage</p>
+				</div>
+				<div class="weapons-task folder"> <i class="fas fa-folder"></i>
+					<p>Weapons</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+        <!--Hidden Menu that is toggle on folder selection-->
+        <div class="boilerroom-task-shown">
+			<h1>Boilerroom</h1>
+			<button class="exit-task-boiler">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Replace Water Jug</p> <img class="task-image" src="./task/replaceWaterJug2.png" alt="Replace Water Jug">
+				<p class="task-description">You have to replace the water bottle in the Office, but you have to first fill the water bottle from the Boiler Room, and then take it to the Office.</p>
+				<p class="task-name">Open Waterway</p> <img class="task-image" src="./task/openWaterWays.jpg" alt="Open Waterway">
+				<p class="task-description">This task requires you to open the valves for the Waterways. Turn the two valves in this area until you see the water indicator rise to full.</p>
+			</div>
+        </div>
+        <div class="communications-task-shown">
+			<h1>Communications</h1>
+			<button class="exit-task-communications">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Reboot Wifi</p> <img class="task-image" src="./task/rebootWifi2.png" alt="Reboot Wifi">
+				<p class="task-description">All you have to do is to power off the router, wait for 60 seconds and then turn it back on to reset it.</p>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png alt="Upload Data">
+				<p class="task-description">The crewmate must Upload Data, which also takes 8.7 seconds.</p>
+			</div>
+        </div>
+        <div class="dropship-task-shown"> 
+			<h1>Dropship</h1>
+			<button class="exit-task-dropship">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Short Task</h4>
+				<p class="task-name">Chart Course</p> <img class="task-image" src="./task/chartCourse.jpg" alt="Chart Course">
+				<p class="task-description">You just have to drag the ship on the dotted lines.</p>
+                <h4 class="task-type"> Common Task</h4>
+				<p class="task-name">Insert Keys</p> <img class="task-image" src="./task/insertKeys.jpg" alt="Insert Keys">
+				<p class="task-description">This is a simple task where you have to insert a key in the highlighted lock, and then turn it around to complete it</p>
+			</div>
+        </div>
+        <div class="electrical-task-shown">
+			<h1>Electrical</h1>
+			<button class="exit-task-electrical">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Common Task</h4>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+                <p class="task-description">You will find four disconnected wires with different colors. Match the colors and join the wires to fix them.</p>
+                <h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Download Data</p> <img class="task-image" src="./task/processData.png" alt="Download Data">
+				<p class="task-description">Simple download the data in the room, and then go to Communications to upload the data.</p>
+			</div>
+        </div>
+        <div class="laboratory-task-shown">
+			<h1>Laboratory</h1>
+			<button class="exit-task-laboratory">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Short Task</h4>
+				<p class="task-name">Record Temperature</p> <img class="task-image" src="./task/recordTemperature.png" alt="Record Temperaturer">
+				<p class="task-description">Requires you to use the arrows to adjust the numbers and match them to the ones on the right.
+                </p>
+				<p class="task-name">Repair Drill</p> <img class="task-image" src="./task/repairDrill.jpg" alt="Repair Drill">
+                <p class="task-description">Click the exclamation alerts three to four times to remove the errors.</p>
+                <p class="task-name">Align Telescope</p> <img class="task-image" src="./task/alignTelescope.png" alt="Align Telescope">
+				<p class="task-description">Drag the telescope towards the element to focus the picture</p>
+				<h4 class="task-type"> Common Task</h4>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of the screen to the right-hand side, making sure each color matches on both sides.</p>
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Fix Weather Node</p> <img class="task-image" src="./task/fixWeather2.png" alt="Water Plants">
+				<p class="task-description">Once the end of the maze is reached, the player must go to the Laboratory and switch on the weather node that was fixed.</p>
+			</div>
+        </div>
+		<div class="medbay-task-shown">
+			<h1>Medbay</h1>
+			<button class="exit-task-medbay">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Submit Scan</p> <img class="task-image" src="./task/medbayScan.jpg" alt="Submit Scan">
+                <p class="task-description">A simple scanner task where allow the device to scan your full body.</p>
+                <p class="task-name">Inspect Sample</p> <img class="task-image" src="./task/inspectSample.png" alt="Fix Wiring">
+                <p class="task-description">You have to click on the green button and wait for a minute and a half. When the sample changes color, click on it.</p>
+			</div>
+        </div>
+		<div class="o2-task-shown">
+			<h1>O2</h1>
+			<button class="exit-task-o2">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Short Task</h4>
+				<p class="task-name">Empty Garbage</p> <img class="task-image" src="./task/emptyGarbage.png" alt="Empty Garbage">
+				<p class="task-description">Pull the lever down to let all the garbage flow out and discard.</p>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Upload in Communications 
+                </p>
+                <p class="task-name">Monitor Tree</p> <img class="task-image" src="./task/monitorTree.jpg" alt="Monitor Tree">
+				<p class="task-description">You will find four sliders here for different materials. Simply drag the slide level to the highlighted lines</p>
+				<p class="task-name">Fill Canisters</p> <img class="task-image" src="./task/fillCanisters.jpg" alt="Fill Canisters">
+				<p class="task-description">bring the oxygen and then place it on the tray to fill up the canisters.. Do this twice to complete this task. 
+				</p>
+				<h4 class="task-type"> Common Task</h4>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Fix Wiring is done by connecting each colored wire from the left-hand side of
+				the screen to the right-hand side, making sure each color matches on both sides. Three electrical
+				panels must be repaired for this task to be completed. </p>
+			</div>
+        </div>
+		<div class="office-task-shown">
+			<h1>Office</h1>
+			<button class="exit-task-office">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Common Task</h4>
+				<p class="task-name">Scan Boarding Pass</p> <img class="task-image" src="./task/scanBoardingPass.png" alt="Scan Boarding Pass">
+                <p class="task-description">Open your boarding pass with the yellow arrows, switch it to face the scanner and then drag it on the red scanner area.</p>
+                <p class="task-name">Swipe Card</p> <img class="task-image" src="./task/swipeCard.jpg" alt="Swipe Card">
+				<p class="task-description">Use your keycard and simple swipe from left to right on the card reader.</p>
+				<p class="task-name">Fix Wiring</p> <img class="task-image" src="./task/fixWiring.png" alt="Fix Wiring">
+				<p class="task-description">Use the console on the left and begin the task. It will take a long time, almost a minute, for this to go through. You can leave the terminal and come back, but the task will not register as complete until you select it one final time to choose the anomaly.</p>
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Download Data</p> <img class="task-image" src="./task/uploadData.png" alt="Download Data">
+                <p class="task-description">Download the data and then upload it in Communications</p>
+                <p class="task-name">Replace Water Jug</p> <img class="task-image" src="./task/replaceWaterJug2.png" alt="Replace Water Jug">
+				<p class="task-description">To complete this task, the player must go to the office and fill up a water jug by holding down the button until all of the water is transferred from the jug's right side to the left.</p>
+			</div>
+        </div>
+		<div class="outside-task-shown">
+			<h1>Outside</h1>
+			<button class="exit-task-outside">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Short Task</h4>
+				<p class="task-name">Record Temperature</p> <img class="task-image" src="./task/recordTemperature.png" alt="Record Temperaturer">
+				<p class="task-description">Requires you to use the arrows to adjust the numbers and match them to the ones on the right.
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Fix Weather Node</p> <img class="task-image" src="./task/medbayScan.jpg" alt="Fix Weather Node">
+				<p class="task-description">This is a simple task where you have to drag the node through the maze to the other end.</p>
+			</div>
+        </div>
+		<div class="specimenroom-task-shown">
+			<h1>Specimen Room</h1>
+			<button class="exit-task-specimenroom">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Short Task</h4>
+				<p class="task-name">Store Artifacts</p> <img class="task-image" src="./task/storeArtifacts.png" alt="Store Artifacts">
+				<p class="task-description">Simply place the artifacts in their places in the case.</p>
+				<p class="task-name">Unlock Manifolds</p> <img class="task-image" src="./task/unlockManifolds.png" alt="Unlock Manifolds">
+                <p class="task-description">Click the numbers from 1-10 in ascending order.</p>
+                
+                <h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Start Reactor</p> <img class="task-image" src="./task/startReactor.png" alt="Start Reactor">
+				<p class="task-description">A simple task that requires you to press the buttons with the same pattern shown on the left.</p>
+				<p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Download the data.</p>
+			</div>
+        </div>
+        
+
+
+		<div class="storage-task-shown">
+			<h1>Storage</h1>
+			<button class="exit-task-storage">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Fuel Engines</p> <img class="task-image" src="./task/fuelEngines.png" alt="Fuel Engines">
+				<p class="task-description">Fill the empty fuel canister in the Storage Room and take it to the engine on the right. Now repeat the step for the left engine.</p>
+			</div>
+        </div>
+        
+
+		<div class="weapons-task-shown">
+			<h1>Weapons</h1>
+			<button class="exit-task-weapons">Return</button>
+			<div class="tasks">
+				<h4 class="task-type"> Long Task</h4>
+				<p class="task-name">Clear Asteroids</p> <img class="task-image" src="./task/clearAsteroids.png" alt="Clear Asteroids">
+                <p class="task-description">Simple click on the asteroids that come from the right to destroy them.</p>
+                <p class="task-name">Upload Data</p> <img class="task-image" src="./task/uploadData.png" alt="Upload Data">
+				<p class="task-description">Download the data</p>
+			</div>
+		</div>
+	</div>
+
+	<a href="index.html">
+		<button class="returnMobile">Return to Map Selection</button>
+	</a>
+
+
+	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+	particlesJS.load('particles-js', 'particles.json');
+    </script>
+    <script src="./javascript/crewmate.js"></script>
+	<script src="./javascript/polus.js"></script>
+</body>
+
+</html>

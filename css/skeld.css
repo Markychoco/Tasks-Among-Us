@@ -71,7 +71,11 @@
 .greenhouse-task-shown,
 .hallway-task-shown,
 .laboratory-task-shown,
-.office-task-shown {
+.boilerroom-task-shown,
+.dropship-task-shown, 
+.office-task-shown,
+.outside-task-shown,
+.specimenroom-task-shown {
     display: none;
 }
 
@@ -93,7 +97,11 @@
 .greenhouse-task-shown h1,
 .hallway-task-shown h1,
 .laboratory-task-shown h1,
-.office-task-shown h1 {
+.boilerroom-task-shown h1,
+.dropship-task-shown h1, 
+.office-task-shown h1,
+.outside-task-shown h1,
+.specimenroom-task-shown h1{
     position: absolute;
     top: 15px;
     left: 10px;
@@ -117,7 +125,19 @@
 .exit-task-gre,
 .exit-task-hal,
 .exit-task-lab,
-.exit-task-lau {
+.exit-task-lau,
+.exit-task-boiler,
+.exit-task-dropship, 
+.exit-task-communications,
+.exit-task-specimenroom,
+.exit-task-outside,
+.exit-task-office,
+.exit-task-electrical,
+.exit-task-laboratory,
+.exit-task-medbay,
+.exit-task-storage,
+.exit-task-weapons
+{
     width: 150px;
     height: 50px;
     border: 2px solid #fff;
@@ -152,9 +172,20 @@
 .exit-task-off:hover,
 .exit-task-bal:hover,
 .exit-task-gre:hover,
+.exit-task-communications:hover,
 .exit-task-hal:hover,
 .exit-task-lab:hover,
-.exit-task-lau:hover {
+.exit-task-lau:hover,
+.exit-task-boiler:hover,
+.exit-task-dropship:hover, 
+.exit-task-specimenroom:hover,
+.exit-task-outside:hover,
+.exit-task-office:hover,
+.exit-task-electrical:hover,
+.exit-task-laboratory:hover,
+.exit-task-medbay:hover,
+.exit-task-storage:hover,
+.exit-task-weapons:hover {
     background-color: #fff;
     color: #263839;
 }
@@ -255,6 +286,7 @@
     
 
     .exit-task, 
+    .exit-task, 
     .exit-task-cafe,
     .exit-task-comms,
     .exit-task-elec,
@@ -272,7 +304,18 @@
     .exit-task-gre,
     .exit-task-hal,
     .exit-task-lab,
-    .exit-task-lau {
+    .exit-task-lau,
+    .exit-task-boiler,
+    .exit-task-dropship, 
+    .exit-task-communications,
+    .exit-task-specimenroom,
+    .exit-task-outside,
+    .exit-task-office,
+    .exit-task-electrical,
+    .exit-task-laboratory,
+    .exit-task-medbay,
+    .exit-task-storage,
+    .exit-task-weapons {
     width: 100px;
     height: 50px;
     border: 2px solid #fff;
