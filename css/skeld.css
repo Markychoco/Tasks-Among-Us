@@ -65,7 +65,13 @@
 .security-task-shown,
 .shields-task-shown,
 .storage-task-shown,
-.weapons-task-shown {
+.weapons-task-shown,
+.launchpad-task-shown,
+.balcony-task-shown,
+.greenhouse-task-shown,
+.hallway-task-shown,
+.laboratory-task-shown,
+.office-task-shown {
     display: none;
 }
 
@@ -81,7 +87,13 @@
 .security-task-shown h1,
 .shields-task-shown h1,
 .storage-task-shown h1,
-.weapons-task-shown h1 {
+.weapons-task-shown h1,
+.launchpad-task-shown h1,
+.balcony-task-shown h1,
+.greenhouse-task-shown h1,
+.hallway-task-shown h1,
+.laboratory-task-shown h1,
+.office-task-shown h1 {
     position: absolute;
     top: 15px;
     left: 10px;
@@ -99,7 +111,13 @@
 .exit-task-sec,
 .exit-task-shield,
 .exit-task-stor,
-.exit-task-weps {
+.exit-task-weps,
+.exit-task-off,
+.exit-task-bal,
+.exit-task-gre,
+.exit-task-hal,
+.exit-task-lab,
+.exit-task-lau {
     width: 150px;
     height: 50px;
     border: 2px solid #fff;
@@ -130,7 +148,13 @@
 .exit-task-sec:hover,
 .exit-task-shield:hover,
 .exit-task-stor:hover,
-.exit-task-weps:hover {
+.exit-task-weps:hover,
+.exit-task-off:hover,
+.exit-task-bal:hover,
+.exit-task-gre:hover,
+.exit-task-hal:hover,
+.exit-task-lab:hover,
+.exit-task-lau:hover {
     background-color: #fff;
     color: #263839;
 }
