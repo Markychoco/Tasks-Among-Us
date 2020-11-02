@@ -1,3 +1,4 @@
+console.log('Crewmate CSS made by /u/Myoochi');
 randomizeCrewmate();
 
 function randomizeCrewmate() {
